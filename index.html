@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phillips Curve Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="changeinunemploymentrateRadio" name="variables" checked>
+  <label for="changeinunemploymentrateRadio">Change in unemployment rate</label>
+
+  <input type="radio" id="percentagerateofmoneywagegrowthRadio" name="variables">
+  <label for="percentagerateofmoneywagegrowthRadio">Percentage rate of money wage growth</label>
+
+  <input type="radio" id="trendrateofgrowthofmoneywagesRadio" name="variables">
+  <label for="trendrateofgrowthofmoneywagesRadio">Trend rate of growth of money wages</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Percentage rate of money wage growth</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Trend rate of growth of money wages</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
